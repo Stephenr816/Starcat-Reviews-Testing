@@ -1,70 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Posts_search-choice-close</name>
+   <name>i_Stats_csf-repeater-remove csf-confirm fas_81fadd</name>
    <tag></tag>
-   <elementGuidId>3cbd878c-2de1-4a0a-8600-539d6acb6923</elementGuidId>
-   <imagePath></imagePath>
+   <elementGuidId>27064491-bdb6-44cb-95e8-1af44390e438</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@data-option-array-index = '0']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>a.search-choice-close</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/ul/li/a</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[9]/div[2]/div[2]/div[3]/div[2]/div/i[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>search-choice-close</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-option-array-index</name>
-      <type>Main</type>
-      <value>0</value>
+      <value>csf-repeater-remove csf-confirm fas fa-times</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-confirm</name>
+      <type>Main</type>
+      <value>Are you sure to delete this item?</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;csf-form&quot;)/div[@class=&quot;csf-wrapper&quot;]/div[@class=&quot;csf-content&quot;]/div[@class=&quot;csf-sections&quot;]/div[@class=&quot;csf-section scr-csf__section&quot;]/div[@class=&quot;csf-field csf-field-select&quot;]/div[@class=&quot;csf-fieldset&quot;]/div[@class=&quot;chosen-container chosen-container-multi&quot;]/ul[@class=&quot;chosen-choices&quot;]/li[@class=&quot;search-choice&quot;]/a[@class=&quot;search-choice-close&quot;]</value>
+      <value>id(&quot;csf-form&quot;)/div[@class=&quot;csf-wrapper&quot;]/div[@class=&quot;csf-content&quot;]/div[@class=&quot;csf-sections&quot;]/div[@class=&quot;csf-section scr-csf__section&quot;]/div[@class=&quot;csf-field csf-field-repeater csf-depend-hidden&quot;]/div[@class=&quot;csf-fieldset&quot;]/div[@class=&quot;csf-repeater-wrapper csf-data-wrapper ui-sortable&quot;]/div[@class=&quot;csf-repeater-item&quot;]/div[@class=&quot;csf-repeater-helper&quot;]/div[@class=&quot;csf-repeater-helper-inner&quot;]/i[@class=&quot;csf-repeater-remove csf-confirm fas fa-times&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/ul/li/a</value>
+      <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[9]/div[2]/div[2]/div[3]/div[2]/div/i[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/ul/li/a</value>
+      <value>//div[3]/div[2]/div/i[3]</value>
    </webElementXpaths>
 </WebElementEntity>

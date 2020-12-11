@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Pages</name>
+   <name>a_General Settings</name>
    <tag></tag>
-   <elementGuidId>88f8cdac-142d-4344-a4af-8d780a1cc78c</elementGuidId>
+   <elementGuidId>639ac44b-4851-43a1-a8a3-d6ca822c606b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/div/ul/li[2]</value>
+         <value>//form[@id='csf-form']/div[2]/div/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#tab=general-settings</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-tab-id</name>
       <type>Main</type>
-      <value>result-selected</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-option-array-index</name>
-      <type>Main</type>
-      <value>1</value>
+      <value>general-settings</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pages</value>
+      <value>General Settings</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;csf-form&quot;)/div[@class=&quot;csf-wrapper&quot;]/div[@class=&quot;csf-content&quot;]/div[@class=&quot;csf-sections&quot;]/div[@class=&quot;csf-section scr-csf__section&quot;]/div[@class=&quot;csf-field csf-field-select&quot;]/div[@class=&quot;csf-fieldset&quot;]/div[@class=&quot;chosen-container chosen-container-multi chosen-container-active&quot;]/div[@class=&quot;chosen-drop&quot;]/ul[@class=&quot;chosen-results&quot;]/li[@class=&quot;result-selected&quot;]</value>
+      <value>id(&quot;csf-form&quot;)/div[@class=&quot;csf-wrapper&quot;]/div[@class=&quot;csf-nav csf-nav-options&quot;]/ul[1]/li[@class=&quot;csf-tab-item&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/div/ul/li[2]</value>
+      <value>//form[@id='csf-form']/div[2]/div/ul/li[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'General Settings')])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posts'])[5]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Woocommerce Settings'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pages'])[4]/following::li[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have unsaved changes, save your changes!'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[5]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Page'])[3]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[2]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category Page'])[3]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#tab=general-settings')])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/div/ul/li[2]</value>
+      <value>//div[2]/div/ul/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

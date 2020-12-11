@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Users Rating (2) overall4.5criteria 14._b2f7c1</name>
+   <name>input_Move to Trash_save</name>
    <tag></tag>
-   <elementGuidId>00fc841e-b6e2-4b15-86a2-7a9aeaa609d0</elementGuidId>
+   <elementGuidId>84cf97f4-52ce-4cce-8349-542793f6c9db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#publish</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//article[@id='post-13']/div/div/div/div/div[2]</value>
+         <value>//input[@id='publish']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>save</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>publish</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>column</value>
+      <value>button button-primary button-large</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Users Rating (2) overall4.5criteria 14.5criteria 24.5</value>
+      <value>Update</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;post-13&quot;)/div[@class=&quot;ast-post-format- ast-no-thumb single-layout-1&quot;]/div[@class=&quot;entry-content clear&quot;]/div[@class=&quot;scr-summary&quot;]/div[@class=&quot;ui stackable two column grid&quot;]/div[@class=&quot;column&quot;]</value>
+      <value>id(&quot;publish&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='publish']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//article[@id='post-13']/div/div/div/div/div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 2'])[1]/following::div[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 1'])[1]/following::div[10]</value>
+      <value>//div[@id='publishing-action']/input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//article/div/div/div/div/div[2]</value>
+      <value>//div[2]/input[2]</value>
    </webElementXpaths>
 </WebElementEntity>
