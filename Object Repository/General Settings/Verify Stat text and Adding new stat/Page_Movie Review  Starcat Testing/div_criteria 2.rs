@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/div[3]/div/div/ul/li[3]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'criteria 2' or . = 'criteria 2')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
