@@ -87,7 +87,7 @@ WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 2'), 
-    'criteria 2')
+    'Criteria 2')
 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
@@ -117,7 +117,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/General Settings/Ve
     0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 3'), 
-    'criteria 3')
+    'Criteria 3')
 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
@@ -135,7 +135,8 @@ WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text 
 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementNotPresent(findTestObject('Page_Movie Review  Starcat Testing/div_criteria 3'), 0)
+WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 3'), 
+    0)
 
 WebUI.closeBrowser()
 
