@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Source Type - Icon or Image</name>
+   <name>Verify Icons (WooCommerce)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9ce12fc7-2245-4b26-9e85-3e836821dc9e</testCaseGuid>
+   <testCaseGuid>328a4d68-841c-4031-b8d1-0fd2a32828b5</testCaseGuid>
 </TestCaseEntity>
