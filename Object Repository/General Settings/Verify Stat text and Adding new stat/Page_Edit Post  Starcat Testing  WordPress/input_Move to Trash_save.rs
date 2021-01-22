@@ -11,7 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='publish']</value>
+         <value>//*[@id=&quot;publish&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'save' and @id = 'publish']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

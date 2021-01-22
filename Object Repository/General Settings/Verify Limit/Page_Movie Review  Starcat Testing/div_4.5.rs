@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>div.reviewed-item-label__score</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '4.5' or . = '4.5')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
