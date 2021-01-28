@@ -6,12 +6,12 @@
    <elementGuidId>82866830-ecf3-4e22-ae57-d77fdfaa608e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.wp-not-current-submenu.menu-top.toplevel_page_scr-reviews-comment > div.wp-menu-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@id='toplevel_page_scr-reviews-comment']/a/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.wp-not-current-submenu.menu-top.toplevel_page_scr-reviews-comment > div.wp-menu-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

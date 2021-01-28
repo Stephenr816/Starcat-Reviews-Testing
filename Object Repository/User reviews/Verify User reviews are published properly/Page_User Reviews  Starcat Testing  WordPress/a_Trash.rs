@@ -6,16 +6,16 @@
    <elementGuidId>80d5b930-184a-4b3c-b660-50a51d3e79fd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.delete.vim-d.vim-destructive.aria-button-if-js</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//tr[@id='comment-108']/td[3]/div[3]/span[4]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Trash' or . = 'Trash')]</value>
+         <value>//*[@aria-label = 'Move this comment to the Trash' and @role = 'button' and (text() = 'Trash' or . = 'Trash')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.delete.vim-d.vim-destructive.aria-button-if-js</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,14 +49,14 @@
       <value>delete vim-d vim-destructive aria-button-if-js</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
       <value>Move this comment to the Trash</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>

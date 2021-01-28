@@ -6,12 +6,12 @@
    <elementGuidId>1cca8c5e-9d96-4925-8891-0eca067778a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.ui.blue.submit.button</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/form/div[6]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui.blue.submit.button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SR US004- Verify Auto Approve Review is not enabled</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c01acd9-86a1-4af8-b0f9-45cdc670b65d</testCaseGuid>
+</TestCaseEntity>

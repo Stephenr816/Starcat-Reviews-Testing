@@ -6,12 +6,12 @@
    <elementGuidId>65b187db-9056-42dc-843c-dc2573cd55f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>textarea[name=&quot;description&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//textarea[@name='description']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea[name=&quot;description&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

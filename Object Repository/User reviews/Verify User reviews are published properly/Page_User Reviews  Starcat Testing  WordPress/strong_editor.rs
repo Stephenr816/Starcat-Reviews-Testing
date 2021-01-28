@@ -6,16 +6,16 @@
    <elementGuidId>8d563a04-679b-461b-8ef7-258adfd8f2c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>strong</value>
+         <key>BASIC</key>
+         <value>//*[(text() = ' editor' or . = ' editor')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//tr[@id='comment-108']/td/strong</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = ' editor' or . = ' editor')]</value>
+         <key>CSS</key>
+         <value>strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

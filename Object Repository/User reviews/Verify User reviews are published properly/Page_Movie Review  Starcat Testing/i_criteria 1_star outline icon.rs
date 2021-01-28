@@ -4,23 +4,20 @@
    <name>i_criteria 1_star outline icon</name>
    <tag></tag>
    <elementGuidId>28358fcd-0709-4ef7-b984-5a1c2dfc7435</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>id(&quot;post-13&quot;)/div[@class=&quot;ast-post-format- ast-no-thumb single-layout-1&quot;]/div[@class=&quot;entry-content clear&quot;]/form[@class=&quot;ui form scr-user-review active&quot;]/div[@class=&quot;rating fields&quot;]/ul[@class=&quot;review-list&quot;]/li[@class=&quot;review-item inline field&quot;]/div[@class=&quot;review-item-stars&quot;]/div[@class=&quot;stars-wrapper&quot;]/i[@class=&quot;star outline icon&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/form/div[2]/ul/li/div[2]/div/i[5]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;post-13&quot;)/div[@class=&quot;ast-post-format- ast-no-thumb single-layout-1&quot;]/div[@class=&quot;entry-content clear&quot;]/form[@class=&quot;ui form scr-user-review active&quot;]/div[@class=&quot;rating fields&quot;]/ul[@class=&quot;review-list&quot;]/li[@class=&quot;review-item inline field&quot;]/div[@class=&quot;review-item-stars&quot;]/div[@class=&quot;stars-wrapper&quot;]/i[@class=&quot;star outline icon&quot;]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

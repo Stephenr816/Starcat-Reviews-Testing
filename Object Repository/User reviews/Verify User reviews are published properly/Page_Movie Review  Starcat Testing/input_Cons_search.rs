@@ -6,12 +6,12 @@
    <elementGuidId>55c044d5-3604-4600-9fc7-e7c0a3025dd9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.ui.fluid.search.prosandcons.dropdown.mini.selection.active > input.search</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/form/div[5]/div/div/div/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui.fluid.search.prosandcons.dropdown.mini.selection.active > input.search</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

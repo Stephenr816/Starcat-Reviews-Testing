@@ -6,12 +6,12 @@
    <elementGuidId>9a320a1a-260f-453d-b491-c03c3e9d32b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.menu.transition.visible > div.item.selected</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/form/div[5]/div/div/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.menu.transition.visible > div.item.selected</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

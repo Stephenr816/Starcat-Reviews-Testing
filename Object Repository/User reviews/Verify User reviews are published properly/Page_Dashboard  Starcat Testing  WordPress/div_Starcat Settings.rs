@@ -6,12 +6,12 @@
    <elementGuidId>aeeb7fd0-15f6-4869-99a8-1c1ba6d4d4a1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.wp-has-submenu.wp-not-current-submenu.menu-top.menu-icon-generic.toplevel_page_scr-settings.menu-top-last > div.wp-menu-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@id='toplevel_page_scr-settings']/a/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.wp-has-submenu.wp-not-current-submenu.menu-top.menu-icon-generic.toplevel_page_scr-settings.menu-top-last > div.wp-menu-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

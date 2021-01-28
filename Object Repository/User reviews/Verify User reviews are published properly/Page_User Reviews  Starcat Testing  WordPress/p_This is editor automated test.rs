@@ -6,16 +6,16 @@
    <elementGuidId>5485cc4a-1827-40e0-84b7-dcd09be24fda</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.comment.column-comment.has-row-actions.column-primary > p</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'This is editor automated test' or . = 'This is editor automated test')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//tr[@id='comment-108']/td[3]/p</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'This is editor automated test' or . = 'This is editor automated test')]</value>
+         <key>CSS</key>
+         <value>td.comment.column-comment.has-row-actions.column-primary > p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

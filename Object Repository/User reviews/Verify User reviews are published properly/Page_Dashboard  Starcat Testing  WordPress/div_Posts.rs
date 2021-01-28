@@ -6,12 +6,12 @@
    <elementGuidId>8a3a1fa8-36aa-4411-926a-55851e242b63</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.wp-has-submenu.wp-not-current-submenu.menu-top.menu-icon-post.open-if-no-js.menu-top-first > div.wp-menu-name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@id='menu-posts']/a/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.wp-has-submenu.wp-not-current-submenu.menu-top.menu-icon-post.open-if-no-js.menu-top-first > div.wp-menu-name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

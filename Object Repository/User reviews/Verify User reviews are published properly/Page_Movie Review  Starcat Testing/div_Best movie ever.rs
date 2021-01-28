@@ -6,12 +6,12 @@
    <elementGuidId>c6f89e3a-6e22-4029-be36-ac5c76adadfe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.item.selected</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/form/div[4]/div/div/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.item.selected</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
