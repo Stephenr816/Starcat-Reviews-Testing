@@ -176,3 +176,7 @@ WebUI.click(findTestObject('User reviews/Verify Auto Approve Review is not enabl
 
 WebUI.closeBrowser()
 
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
