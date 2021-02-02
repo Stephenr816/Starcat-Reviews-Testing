@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Approve</name>
+   <name>a_Movie Review</name>
    <tag></tag>
-   <elementGuidId>caf72566-f657-4a0f-a356-a7f06c73fc51</elementGuidId>
+   <elementGuidId>f59f7913-52e4-4d9b-87d7-ff7078cd5a1d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.vim-a.aria-button-if-js</value>
+         <value>#post-13 > td.title.column-title.has-row-actions.column-primary.page-title > strong > a.row-title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='comment-143']/td[3]/div[3]/span/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'vim-a aria-button-if-js' and (text() = 'Approve' or . = 'Approve')]</value>
+         <value>//tr[@id='post-13']/td/strong/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,113 +26,99 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>comment.php?c=143&amp;action=approvecomment&amp;_wpnonce=21f1d332a7</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-wp-lists</name>
-      <type>Main</type>
-      <value>dim:the-comment-list:comment-143:unapproved:e7e7d3:e7e7d3:new=approved</value>
+      <value>row-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>vim-a aria-button-if-js</value>
+      <value>https://test.starcatwp.com/wp-admin/post.php?post=13&amp;action=edit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Approve this comment</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
+      <value>“Movie Review” (Edit)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Approve</value>
+      <value>Movie Review</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;comment-143&quot;)/td[@class=&quot;comment column-comment has-row-actions column-primary&quot;]/div[@class=&quot;row-actions&quot;]/span[@class=&quot;approve&quot;]/a[@class=&quot;vim-a aria-button-if-js&quot;]</value>
+      <value>id(&quot;post-13&quot;)/td[@class=&quot;title column-title has-row-actions column-primary page-title&quot;]/strong[1]/a[@class=&quot;row-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='comment-143']/td[3]/div[3]/span/a</value>
+      <value>//tr[@id='post-13']/td/strong/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>(//a[contains(text(),'Approve')])[2]</value>
+      <value>//a[contains(text(),'Movie Review')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='editor'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='“Movie Review” is locked'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='editor@gmail.com'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Movie Review'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapprove'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Movie Review'])[2]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='movie-review'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Movie Review']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'comment.php?c=143&amp;action=approvecomment&amp;_wpnonce=21f1d332a7')]</value>
+      <value>//a[contains(@href, 'https://test.starcatwp.com/wp-admin/post.php?post=13&amp;action=edit')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/span/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//tr[@id='comment-135']/td[3]/div[3]/span/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'comment.php?c=135&amp;action=approvecomment&amp;_wpnonce=cf7cef1ced')]</value>
+      <value>//tr[11]/td/strong/a</value>
    </webElementXpaths>
 </WebElementEntity>

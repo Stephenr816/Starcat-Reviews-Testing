@@ -138,7 +138,7 @@ WebUI.mouseOver(findTestObject('User reviews/Verify Auto Approve Review is not e
 
 WebUI.click(findTestObject('User reviews/Verify Auto Approve Review is not enabled/Page_User Reviews  Starcat Testing  WordPress/a_Approve'))
 
-WebUI.delay(3)
+WebUI.delay(7)
 
 WebUI.closeBrowser()
 
@@ -175,8 +175,4 @@ WebUI.mouseOver(findTestObject('User reviews/Verify Auto Approve Review is not e
 WebUI.click(findTestObject('User reviews/Verify Auto Approve Review is not enabled/Page_User Reviews  Starcat Testing  WordPress/a_Trash'))
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
 

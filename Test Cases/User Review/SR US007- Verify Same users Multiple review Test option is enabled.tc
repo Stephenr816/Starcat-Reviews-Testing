@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SR US007- Verify Same users Multiple review Test option is enabled</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93ff08de-3564-4bd8-a7d1-4b7083641620</testCaseGuid>
+</TestCaseEntity>
