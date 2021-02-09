@@ -57,14 +57,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/2020/01/07/movie-review/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Movie Review  Starcat Testing/h2_Leave a Review'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Movie Review  Starcat Testing/h2_Leave a Review'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Movie Review  Starcat Testing/textarea_criteria 2_description'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Movie Review  Starcat Testing/textarea_criteria 2_description'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Movie Review  Starcat Testing/div_Submit'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Movie Review  Starcat Testing/div_Submit'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
