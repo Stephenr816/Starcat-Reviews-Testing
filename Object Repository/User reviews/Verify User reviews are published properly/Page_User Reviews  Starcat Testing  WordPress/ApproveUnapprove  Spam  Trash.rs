@@ -15,23 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' editoreditor@gmail.com162.216.140.17This is editor automated test
-		
-			This is editor automated test
-			editor@gmail.com
-			editor
-			
-			0
-		
-			0 approvedApproveUnapprove | Spam | TrashShow more details' or . = ' editoreditor@gmail.com162.216.140.17This is editor automated test
-		
-			This is editor automated test
-			editor@gmail.com
-			editor
-			
-			0
-		
-			0 approvedApproveUnapprove | Spam | TrashShow more details')]</value>
+         <value>//*[@class = 'comment column-comment has-row-actions column-primary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -44,7 +28,7 @@
       <value>td</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -58,7 +42,7 @@
       <value>Review</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

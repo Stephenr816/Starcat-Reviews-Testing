@@ -20,6 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3A%2F%2Ftest.starcatwp.com%2Fwp-admin%2F&reauth=1')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'hello@pauple.com')
 
@@ -43,6 +45,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3A%2F%2Ftest.starcatwp.com%2Fwp-admin%2F&reauth=1')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'editor')
 
@@ -50,10 +54,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/User reviews/Verify Who
     'MGXm4pa98Sc=')
 
 WebUI.click(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
-
-WebUI.navigateToUrl('https://test.starcatwp.com/2020/01/07/movie-review/')
-
-WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/2020/01/07/movie-review/')
 
@@ -72,6 +72,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/2020/01/07/movie-review/')
 
+WebUI.maximizeWindow()
+
 WebUI.verifyElementNotVisible(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Movie Review  Starcat Testing/h2_Leave a Review'), 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -86,6 +88,8 @@ WebUI.closeBrowser()
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3A%2F%2Ftest.starcatwp.com%2Fwp-admin%2F&reauth=1')
+
+WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'hello@pauple.com')
@@ -109,6 +113,8 @@ WebUI.closeBrowser()
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/2020/01/07/movie-review/')
+
+WebUI.maximizeWindow()
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/User reviews/Verify Who can Review(User reviews)/Page_Movie Review  Starcat Testing/h2_Leave a Review'), 
     FailureHandling.STOP_ON_FAILURE)

@@ -72,7 +72,7 @@ WebUI.click(findTestObject('Object Repository/General Settings/Verify Icons(Star
 WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Icons(Star and Heart Icon)/Page_Movie Review  Starcat Testing/i_overall_star icon'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/General Settings/Verify Icons(Star and Heart Icon)/Page_Movie Review  Starcat Testing/i_overall_heart icon'), 
+WebUI.verifyElementPresent(findTestObject('General Settings/Verify Icons(Star and Heart Icon)/Page_Movie Review  Starcat Testing/i_overall_heart icon'), 
     0)
 
 WebUI.closeBrowser()

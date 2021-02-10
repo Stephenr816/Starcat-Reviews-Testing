@@ -45,6 +45,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/product/apple-iphone-11-64gb-black/')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementNotVisible(findTestObject('WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/h2_Leave a Review'), 
@@ -59,14 +61,13 @@ WebUI.verifyElementNotVisible(findTestObject('WooCommerce Settings/Verify Who ca
 WebUI.verifyElementNotVisible(findTestObject('WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_Submit'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_Slightly bulky and weighty_ui image add-photos'), 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3A%2F%2Ftest.starcatwp.com%2Fwp-admin%2F&reauth=1')
+
+WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'editor')
@@ -77,6 +78,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/WooCommerce Settings/Ve
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
 
 WebUI.navigateToUrl('https://test.starcatwp.com/product/apple-iphone-11-64gb-black/')
+
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
@@ -92,14 +95,13 @@ WebUI.verifyElementVisible(findTestObject('WooCommerce Settings/Verify Who can R
 WebUI.verifyElementVisible(findTestObject('WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_Submit'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_Slightly bulky and weighty_ui image add-photos'), 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.closeBrowser()
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3A%2F%2Ftest.starcatwp.com%2Fwp-admin%2F&reauth=1')
+
+WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('Object Repository/WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'hello@pauple.com')
@@ -124,6 +126,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/product/apple-iphone-11-64gb-black/')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementVisible(findTestObject('WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/h2_Leave a Review'), 
@@ -136,9 +140,6 @@ WebUI.verifyElementVisible(findTestObject('WooCommerce Settings/Verify Who can R
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_Submit'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('WooCommerce Settings/Verify Who can Review (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_Slightly bulky and weighty_ui image add-photos'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()

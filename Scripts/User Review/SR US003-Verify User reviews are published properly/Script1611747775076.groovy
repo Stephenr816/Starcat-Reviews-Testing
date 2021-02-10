@@ -115,7 +115,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/User reviews/Verify
 WebUI.verifyElementText(findTestObject('Object Repository/User reviews/Verify User reviews are published properly/Page_User Reviews  Starcat Testing  WordPress/p_This is editor automated test'), 
     'This is editor automated test')
 
-WebUI.mouseOver(findTestObject('Object Repository/User reviews/Verify User reviews are published properly/Page_User Reviews  Starcat Testing  WordPress/ApproveUnapprove  Spam  Trash'), 
+WebUI.mouseOver(findTestObject('User reviews/Verify User reviews are published properly/Page_User Reviews  Starcat Testing  WordPress/ApproveUnapprove  Spam  Trash'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)

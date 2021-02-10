@@ -4,27 +4,36 @@
    <name>img</name>
    <tag></tag>
    <elementGuidId>ff480784-0a49-472c-9a50-4fdf656658ac</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//article[@id='post-13']/div/div/div[4]/div/div/ul/li/div[2]/div[2]/img[2]</value>
+         <value>//*[@id=&quot;post-13&quot;]/div/div/div[5]/div/div[1]/ul/li[1]/div[2]/div[2]/img[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
          <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>

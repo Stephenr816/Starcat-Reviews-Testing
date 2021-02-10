@@ -20,6 +20,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3A%2F%2Ftest.starcatwp.com%2Fwp-admin%2F&reauth=1')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/User reviews/Verify Enable User Review/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'hello@pauple.com')
 
@@ -44,11 +46,11 @@ WebUI.click(findTestObject('Object Repository/User reviews/Verify Enable User Re
 
 WebUI.click(findTestObject('Object Repository/User reviews/Verify Enable User Review/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/User reviews/Verify Enable User Review/Page_Movie Review  Starcat Testing/h2_Leave a Review'))
+WebUI.verifyElementVisible(findTestObject('User reviews/Verify Enable User Review/Page_Movie Review  Starcat Testing/h2_Leave a Review'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/User reviews/Verify Enable User Review/Page_Movie Review  Starcat Testing/textarea_criteria 2_description'))
+WebUI.verifyElementVisible(findTestObject('User reviews/Verify Enable User Review/Page_Movie Review  Starcat Testing/textarea_criteria 2_description'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/User reviews/Verify Enable User Review/Page_Movie Review  Starcat Testing/div_Submit'))
+WebUI.verifyElementVisible(findTestObject('User reviews/Verify Enable User Review/Page_Movie Review  Starcat Testing/div_Submit'))
 
 WebUI.click(findTestObject('Object Repository/User reviews/Verify Enable User Review/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
