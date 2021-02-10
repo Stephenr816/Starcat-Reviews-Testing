@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>General and WooCommerce Settings</name>
+   <name>Starcat Reviews base plugin testing</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -148,5 +148,53 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WooCommerce Settings/SR WS012-Verify Icons Label Color (WooCommerce)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e09d91c-0940-4b22-8fb8-6657c8c7da2e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Review/SR US001-Verify Who can Review (User reviews)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c7d580f-739c-41e5-b41c-890426cd28dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Review/SR US002-Verify Enable User Review</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>679e5e81-9ef4-433f-80c9-752980974de0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Review/SR US003-Verify User reviews are published properly</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ecb2d98-b5ff-486e-8494-91b47c5f66a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Review/SR US004- Verify Auto Approve Review is not enabled</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1167768-ce04-427f-be44-ee43c9792532</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Review/SR US005-Verify Auto approve review test is enabled</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9b0c2f7-7b78-4a57-98cd-c21c6d09b6a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Review/SR US006- Verify Same users Multiple review Test option is not enabled</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c9230fc7-ad05-42b8-9db9-db369c78b31a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Review/SR US007- Verify Same users Multiple review Test option is enabled</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dbbf9bb7-2828-43ad-b9df-9c9d06373faa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Review/SR US008- Verify Show User Review List Title</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
