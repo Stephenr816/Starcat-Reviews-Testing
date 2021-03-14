@@ -10,12 +10,11 @@
          <value>//article[@id='post-13']/div/div/div[4]/div/div/ul/li/div[2]/div[2]/i[3]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@class = 'scr-icons-row']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'star icon']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>star icon</value>
+      <value>scr-icons-row</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

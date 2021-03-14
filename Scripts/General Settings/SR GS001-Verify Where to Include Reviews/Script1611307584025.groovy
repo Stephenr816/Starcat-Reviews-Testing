@@ -78,8 +78,6 @@ WebUI.click(findTestObject('General Settings/Verify Where to Include Reviews/Pag
 
 WebUI.click(findTestObject('General Settings/Verify Where to Include Reviews/Page_Edit Page  Starcat Testing  WordPress/a_httpstest.starcatwp.commovie-page'))
 
-WebUI.acceptAlert()
-
 WebUI.verifyElementVisible(findTestObject('General Settings/Verify Where to Include Reviews/Page_Movie page  Starcat Testing/div_Author Rating overall4criteria 15criteria 23'), 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -102,8 +100,6 @@ WebUI.click(findTestObject('General Settings/Verify Where to Include Reviews/Pag
 WebUI.click(findTestObject('General Settings/Verify Where to Include Reviews/Page_Pages  Starcat Testing  WordPress/a_Movie page'))
 
 WebUI.click(findTestObject('General Settings/Verify Where to Include Reviews/Page_Edit Page  Starcat Testing  WordPress/a_httpstest.starcatwp.commovie-page'))
-
-WebUI.acceptAlert()
 
 WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Where to Include Reviews/Page_Movie page  Starcat Testing/div_Author Rating overall4criteria 15criteria 23'), 
     0)

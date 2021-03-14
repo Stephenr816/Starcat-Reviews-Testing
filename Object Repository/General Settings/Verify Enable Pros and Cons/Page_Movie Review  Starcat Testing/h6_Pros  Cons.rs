@@ -6,15 +6,19 @@
    <elementGuidId>c7a50ec1-64d4-4e70-9ce0-6799830f58ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h6.ui.header</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/div/div/div[3]/h6</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pros &amp; Cons' or . = 'Pros &amp; Cons')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.ui.header</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

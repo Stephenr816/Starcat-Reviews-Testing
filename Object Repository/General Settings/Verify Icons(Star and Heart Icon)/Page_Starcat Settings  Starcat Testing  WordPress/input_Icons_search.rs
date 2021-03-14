@@ -10,21 +10,25 @@
          <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[13]/div[2]/div/input[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'search']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.ui.search.selection.dropdown.scr-dropdown.active > input.search</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,7 +49,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -10,11 +10,15 @@
          <value>//div[@id='product-17']/div[2]/ul/li/div/div[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'stars-result']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.stars-result</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,14 +28,14 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>stars-result</value>
+      <value>reviewed-item-stars</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

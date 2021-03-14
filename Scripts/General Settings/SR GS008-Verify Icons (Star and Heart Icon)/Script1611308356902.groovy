@@ -34,7 +34,9 @@ WebUI.click(findTestObject('Object Repository/General Settings/Verify Icons(Star
 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Icons(Star and Heart Icon)/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Icons(Star and Heart Icon)/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
+WebUI.mouseOver(findTestObject('General Settings/Verify Icons(Star and Heart Icon)/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
+
+WebUI.click(findTestObject('General Settings/Verify Icons(Star and Heart Icon)/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Icons(Star and Heart Icon)/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 

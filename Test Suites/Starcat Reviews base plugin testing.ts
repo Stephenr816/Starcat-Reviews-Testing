@@ -42,12 +42,6 @@
       <testCaseId>Test Cases/General Settings/SR GS005-Verify Stat text and Adding new stat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0c202ee3-be3e-453e-a9bf-f46aab949919</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS006-Verify Source Type Icon or Image</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f3d9671d-62d4-4ab4-9a0f-3f1d8b57c84f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

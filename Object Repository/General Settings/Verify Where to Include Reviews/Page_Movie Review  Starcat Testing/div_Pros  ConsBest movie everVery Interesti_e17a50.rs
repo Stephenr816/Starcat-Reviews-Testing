@@ -6,15 +6,19 @@
    <elementGuidId>936ebd3e-c0a4-4f02-8eba-8b443e210a36</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.prosandcons</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/div/div/div[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'prosandcons']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.prosandcons</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,14 +28,14 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>prosandcons</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
