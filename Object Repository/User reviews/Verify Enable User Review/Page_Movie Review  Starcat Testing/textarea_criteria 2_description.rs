@@ -6,15 +6,19 @@
    <elementGuidId>895753e9-4714-46ed-9641-651bf89ce800</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//textarea[@name='description']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>textarea[name=&quot;description&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@name='description']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'description' and @placeholder = 'Description']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

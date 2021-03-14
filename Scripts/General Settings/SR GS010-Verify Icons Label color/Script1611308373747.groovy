@@ -51,9 +51,9 @@ WebUI.click(findTestObject('Object Repository/General Settings/Verify Icon Label
 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Icon Label color/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Icon Label color/Page_Movie Review  Starcat Testing/div_4.5'))
+WebUI.click(findTestObject('General Settings/Verify Icon Label color/Page_Movie Review  Starcat Testing/div_4.5'))
 
-css_color = WebUI.getCSSValue(findTestObject('Object Repository/General Settings/Verify Icon Label color/Page_Movie Review  Starcat Testing/div_4.5'), 
+css_color = WebUI.getCSSValue(findTestObject('General Settings/Verify Icon Label color/Page_Movie Review  Starcat Testing/div_4.5'), 
     'color')
 
 println(css_color)

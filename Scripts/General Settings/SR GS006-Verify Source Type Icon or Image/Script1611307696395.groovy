@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Object Repository/General Settings/Verify Source Typ
 WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Source Type/Page_Movie Review  Starcat Testing/i_overall_star icon'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/General Settings/Verify Source Type/Page_Movie Review  Starcat Testing/img'), 
+WebUI.verifyElementPresent(findTestObject('General Settings/Verify Source Type/Page_Movie Review  Starcat Testing/img'), 
     0)
 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Source Type/Page_Movie Review  Starcat Testing/a_Starcat Settings'))

@@ -42,8 +42,6 @@ WebUI.verifyElementPresent(findTestObject('WooCommerce Settings/Verify Enable Pr
 
 WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Pros and Cons (WooCommerce)/Page_Edit product  Starcat Testing  WordPress/starcatwp.comproductapple'))
 
-WebUI.acceptAlert()
-
 WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Pros and Cons (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementPresent(findTestObject('WooCommerce Settings/Verify Enable Pros and Cons (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/h6_Pros  Cons'), 
@@ -66,8 +64,6 @@ WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Pros and Cons (Wo
 WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Pros and Cons (WooCommerce)/Page_Products  Starcat Testing  WordPress/a_Apple iPhone 11 (64GB)  Black'))
 
 WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Pros and Cons (WooCommerce)/Page_Edit product  Starcat Testing  WordPress/starcatwp.comproductapple'))
-
-WebUI.acceptAlert()
 
 WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Pros and Cons (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 

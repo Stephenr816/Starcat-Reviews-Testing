@@ -6,15 +6,19 @@
    <elementGuidId>07e43799-6583-46ef-8774-1536864a4dea</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-13']/div/div/form/h2</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>h2.ui.header</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//article[@id='post-13']/div/div/form/h2</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Leave a Review' or . = 'Leave a Review')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

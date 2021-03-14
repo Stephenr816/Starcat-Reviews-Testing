@@ -39,12 +39,10 @@ WebUI.verifyElementPresent(findTestObject('WooCommerce Settings/Verify Enable St
 
 WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Edit product  Starcat Testing  WordPress/a_httpstest.starcatwp.comproductapple-iphon_a220d6'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementPresent(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_Apple iPhone 11 (64GB)  Black_stars-result'), 
     0)
-
-WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementPresent(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/h4_Author Rating'), 
     0)
@@ -66,12 +64,10 @@ WebUI.verifyElementNotPresent(findTestObject('WooCommerce Settings/Verify Enable
 
 WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Edit product  Starcat Testing  WordPress/a_httpstest.starcatwp.comproductapple-iphon_a220d6'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementNotPresent(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_Apple iPhone 11 (64GB)  Black_stars-result'), 
     0)
-
-WebUI.click(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementNotPresent(findTestObject('WooCommerce Settings/Verify Enable Starcat for WooCommerce/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/h4_Author Rating'), 
     0)

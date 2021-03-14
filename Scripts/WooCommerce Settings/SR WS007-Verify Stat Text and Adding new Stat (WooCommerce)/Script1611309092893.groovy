@@ -54,8 +54,6 @@ WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat T
 
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Edit product  Starcat Testing  WordPress/a_View Product'))
 
-WebUI.acceptAlert()
-
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementText(findTestObject('WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_stephen'), 
@@ -85,8 +83,6 @@ WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat T
 
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Edit product  Starcat Testing  WordPress/a_View Product'))
 
-WebUI.acceptAlert()
-
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 
 WebUI.verifyElementText(findTestObject('WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/div_feature 2'), 
@@ -113,8 +109,6 @@ WebUI.mouseOver(findTestObject('Object Repository/WooCommerce Settings/Verify St
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Edit product  Starcat Testing  WordPress/input_Move to Trash_save'))
 
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Edit product  Starcat Testing  WordPress/a_View Product'))
-
-WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Object Repository/WooCommerce Settings/Verify Stat Text and Adding new Stat (WooCommerce)/Page_Apple iPhone 11 (64GB)  Black  Starcat_e378c8/a_Reviews (1)'))
 

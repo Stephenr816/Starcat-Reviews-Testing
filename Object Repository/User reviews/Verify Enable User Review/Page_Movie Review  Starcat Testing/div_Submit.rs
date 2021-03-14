@@ -6,15 +6,19 @@
    <elementGuidId>b4a5be2a-32d9-4ee3-9a2e-b15cce2ea90b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-13']/div/div/form/div[7]/div</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.ui.blue.submit.button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//article[@id='post-13']/div/div/form/div[7]/div</value>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Submit ' or . = ' Submit ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

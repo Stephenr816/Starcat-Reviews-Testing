@@ -53,7 +53,7 @@ WebUI.click(findTestObject('Object Repository/General Settings/Verify Icons colo
 
 WebUI.click(findTestObject('Object Repository/General Settings/Verify Icons color/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-css_color = WebUI.getCSSValue(findTestObject('Object Repository/General Settings/Verify Icons color/Page_Movie Review  Starcat Testing/i_overall_star icon'), 
+css_color = WebUI.getCSSValue(findTestObject('General Settings/Verify Icons color/Page_Movie Review  Starcat Testing/i_overall_star icon'), 
     'color')
 
 println(css_color)
