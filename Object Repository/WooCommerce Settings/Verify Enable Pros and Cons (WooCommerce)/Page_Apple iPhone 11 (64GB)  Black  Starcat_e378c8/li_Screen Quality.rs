@@ -6,6 +6,10 @@
    <elementGuidId>5e479150-b7e5-457f-9eff-f722a5b73204</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Screen Quality' or . = 'Screen Quality')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='tab-reviews']/div/div/div[3]/div/ul/li</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>ul.pros > li</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

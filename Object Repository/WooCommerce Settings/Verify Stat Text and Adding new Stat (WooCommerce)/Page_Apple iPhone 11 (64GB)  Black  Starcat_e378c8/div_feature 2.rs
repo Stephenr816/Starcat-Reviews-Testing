@@ -6,15 +6,18 @@
    <elementGuidId>acd5a5de-d785-49da-a251-c509b1e21836</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'feature 2' or . = 'feature 2')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='tab-reviews']/div/div/div/ul/li[3]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

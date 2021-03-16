@@ -22,120 +22,122 @@ WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
+WebUI.setText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'hello@pauple.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Log In  Starcat Testing  WordPress/input_Password_pwd'), 
+WebUI.setEncryptedText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Log In  Starcat Testing  WordPress/input_Password_pwd'), 
     'Pe+uo40tC36STRx7NIxSrQ==')
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Dashboard  Starcat Testing  WordPress/div_Starcat Settings'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Dashboard  Starcat Testing  WordPress/div_Starcat Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/select_SingleMultiple'), 
+WebUI.selectOptionByValue(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/select_SingleMultiple'), 
     'multiple', true)
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats1stat_name'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats1stat_name'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_StatsYou cannot add more.You cannot rem_bb1068'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_StatsYou cannot add more.You cannot rem_bb1068'))
 
-WebUI.setText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats1stat_name'), 
+WebUI.setText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats1stat_name'), 
     'Stephen')
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
 
-WebUI.setText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Rating__scr_post_optionsstats-listste_79477d'), 
+WebUI.setText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Rating__scr_post_optionsstats-listste_79477d'), 
     '80')
 
-WebUI.click(findTestObject('General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementText(findTestObject('General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_stephen'), 
+WebUI.verifyElementText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_stephen'), 
     'Stephen')
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats1stat_name'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats1stat_name'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_StatsYou cannot add more.You cannot rem_bb1068'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_StatsYou cannot add more.You cannot rem_bb1068'))
 
-WebUI.setText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats1stat_name'), 
+WebUI.setText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats1stat_name'), 
     'Criteria 2')
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
 
-WebUI.setText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Rating__scr_post_optionsstats-listcri_be1163'), 
+WebUI.setText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Rating__scr_post_optionsstats-listcri_be1163'), 
     '80')
 
-WebUI.mouseOver(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
+WebUI.mouseOver(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 2'), 
+WebUI.verifyElementText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 2'), 
     'Criteria 2')
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/i_You cannot remove more._fas fa-plus-circle'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/i_You cannot remove more._fas fa-plus-circle'))
 
-WebUI.setText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats2stat_name'), 
+WebUI.setText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_Stats_scr_optionsglobal_stats2stat_name'), 
     'Criteria 3')
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
+WebUI.mouseOver(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.setText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Rating__scr_post_optionsstats-listcri_51690c'), 
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+
+WebUI.setText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Rating__scr_post_optionsstats-listcri_51690c'), 
     '80')
 
-WebUI.mouseOver(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
+WebUI.mouseOver(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_View post'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_View post'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 3'), 
+WebUI.verifyElementPresent(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 3'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 3'), 
+WebUI.verifyElementText(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 3'), 
     'Criteria 3')
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/i_Stats_csf-repeater-remove csf-confirm fas_81fadd'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/i_Stats_csf-repeater-remove csf-confirm fas_81fadd'))
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
+WebUI.click(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 3'), 
+WebUI.verifyElementNotPresent(findTestObject('General Settings/SR GS005-Verify Stat text and Adding new stat/Page_Movie Review  Starcat Testing/div_criteria 3'), 
     0)
 
 WebUI.closeBrowser()

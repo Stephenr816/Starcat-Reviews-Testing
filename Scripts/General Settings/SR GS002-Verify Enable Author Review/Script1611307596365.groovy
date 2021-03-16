@@ -22,58 +22,58 @@ WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('General Settings/Verify Enable Author Review/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
+WebUI.setText(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'hello@pauple.com')
 
-WebUI.setEncryptedText(findTestObject('General Settings/Verify Enable Author Review/Page_Log In  Starcat Testing  WordPress/input_Password_pwd'), 
+WebUI.setEncryptedText(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Log In  Starcat Testing  WordPress/input_Password_pwd'), 
     'Pe+uo40tC36STRx7NIxSrQ==')
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Dashboard  Starcat Testing  WordPress/div_Starcat Settings'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Dashboard  Starcat Testing  WordPress/div_Starcat Settings'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/input_Where to include reviews_chosen-searc_ecc75d'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/input_Where to include reviews_chosen-searc_ecc75d'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/li_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/li_Posts'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/ul_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/ul_Posts'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/li_Pages'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/li_Pages'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
 
-WebUI.verifyElementVisible(findTestObject('General Settings/Verify Enable Author Review/Page_Edit Post  Starcat Testing  WordPress/a_Stats'), 
+WebUI.verifyElementVisible(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Edit Post  Starcat Testing  WordPress/a_Stats'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementVisible(findTestObject('General Settings/Verify Enable Author Review/Page_Movie Review  Starcat Testing/h4_Author Rating'), 
+WebUI.verifyElementVisible(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Movie Review  Starcat Testing/h4_Author Rating'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
 
-WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Enable Author Review/Page_Edit Post  Starcat Testing  WordPress/a_Stats'), 
+WebUI.verifyElementNotPresent(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Edit Post  Starcat Testing  WordPress/a_Stats'), 
     0)
 
-WebUI.click(findTestObject('General Settings/Verify Enable Author Review/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
+WebUI.click(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Enable Author Review/Page_Movie Review  Starcat Testing/h4_Author Rating'), 
+WebUI.verifyElementNotPresent(findTestObject('General Settings/SR GS002-Verify Enable Author Review/Page_Movie Review  Starcat Testing/h4_Author Rating'), 
     0)
 
 WebUI.closeBrowser()

@@ -6,15 +6,15 @@
    <elementGuidId>ab3be9e8-6da3-4cbd-b520-2e3b5c1ed718</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@class, 'scr-icon fas fa-heart')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/div[4]/div/div/ul/li/div[2]/div[2]/i[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'heart icon']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,10 +28,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>heart icon</value>
+      <value>scr-icon fas fa-heart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

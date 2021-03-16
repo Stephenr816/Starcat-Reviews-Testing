@@ -22,47 +22,47 @@ WebUI.navigateToUrl('https://test.starcatwp.com/wp-login.php?redirect_to=https%3
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
+WebUI.setText(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'hello@pauple.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Log In  Starcat Testing  WordPress/input_Password_pwd'), 
+WebUI.setEncryptedText(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Log In  Starcat Testing  WordPress/input_Password_pwd'), 
     'Pe+uo40tC36STRx7NIxSrQ==')
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Dashboard  Starcat Testing  WordPress/div_Starcat Settings'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Dashboard  Starcat Testing  WordPress/div_Starcat Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementVisible(findTestObject('General Settings/Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/div_criteria 2'), 
+WebUI.verifyElementVisible(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/div_criteria 2'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/select_SingleMultiple'), 
+WebUI.selectOptionByValue(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/select_SingleMultiple'), 
     'single', true)
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
 
-WebUI.click(findTestObject('Object Repository/General Settings/Verify Single or Multiple Stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/div_criteria 2'), 
+WebUI.verifyElementNotPresent(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/div_criteria 2'), 
     0)
 
 WebUI.closeBrowser()

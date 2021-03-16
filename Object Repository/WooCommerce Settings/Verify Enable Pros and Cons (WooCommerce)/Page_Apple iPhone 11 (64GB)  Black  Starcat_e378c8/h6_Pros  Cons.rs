@@ -6,6 +6,10 @@
    <elementGuidId>a0806cb6-420d-492f-94f6-0c365f6492ae</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pros &amp; Cons' or . = 'Pros &amp; Cons')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='tab-reviews']/div/div/div[3]/h6</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>h6.ui.header</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

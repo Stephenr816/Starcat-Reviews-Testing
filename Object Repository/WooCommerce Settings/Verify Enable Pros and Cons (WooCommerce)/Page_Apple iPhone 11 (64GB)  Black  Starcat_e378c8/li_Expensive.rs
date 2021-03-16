@@ -6,6 +6,10 @@
    <elementGuidId>bb73c9b4-3886-4119-b840-9cf5fb7c3e54</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Expensive' or . = 'Expensive')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='tab-reviews']/div/div/div[3]/div/ul[2]/li</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>ul.cons > li</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

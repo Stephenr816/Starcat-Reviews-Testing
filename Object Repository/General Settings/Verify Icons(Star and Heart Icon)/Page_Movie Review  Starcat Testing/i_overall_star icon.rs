@@ -6,6 +6,11 @@
    <elementGuidId>f121168b-ccb7-42cd-94c9-35fda2e9241d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span
+[contains(@class, 'scr-icon fas fa-star')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/div[4]/div/div/ul/li/div[2]/div[2]/i[3]</value>
       </entry>
@@ -13,26 +18,23 @@
          <key>CSS</key>
          <value></value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'star icon']</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>span
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>star icon</value>
+      <value>scr-icon fas fa-star</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

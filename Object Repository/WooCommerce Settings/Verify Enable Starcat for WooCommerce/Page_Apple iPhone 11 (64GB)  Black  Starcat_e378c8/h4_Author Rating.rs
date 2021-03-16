@@ -6,6 +6,10 @@
    <elementGuidId>d4dae94b-9d86-4050-a791-97ec71276c52</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Author Rating ' or . = 'Author Rating ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='tab-reviews']/div/div/div/h4</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>h4.ui.header</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

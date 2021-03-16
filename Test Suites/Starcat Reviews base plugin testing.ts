@@ -42,12 +42,6 @@
       <testCaseId>Test Cases/General Settings/SR GS005-Verify Stat text and Adding new stat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0c202ee3-be3e-453e-a9bf-f46aab949919</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS006-Verify Source Type Icon or Image</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f3d9671d-62d4-4ab4-9a0f-3f1d8b57c84f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -118,12 +112,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WooCommerce Settings/SR WS007-Verify Stat Text and Adding new Stat (WooCommerce)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5a1d52ed-903c-4bc0-a0ad-3a351ad441c5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WooCommerce Settings/SR WS008-Verify Source Type (WooCommerce)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c048e5f6-d58d-44fc-a9bd-4c239b88c9a8</guid>
