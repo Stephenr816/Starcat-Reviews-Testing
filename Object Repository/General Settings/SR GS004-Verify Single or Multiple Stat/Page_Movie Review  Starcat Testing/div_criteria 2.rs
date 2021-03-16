@@ -6,14 +6,24 @@
    <elementGuidId>bc4d8907-be47-49dd-9b85-bff2b8149ea2</elementGuidId>
    <selectorCollection>
       <entry>
+<<<<<<< HEAD:Object Repository/General Settings/SR GS004-Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/div_criteria 2.rs
          <key>BASIC</key>
          <value>//*[(text() = 'criteria 2' or . = 'criteria 2')]</value>
       </entry>
       <entry>
+=======
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24:Object Repository/General Settings/Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/div_criteria 2.rs
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/div/div/div/ul/li[3]/div</value>
       </entry>
       <entry>
+<<<<<<< HEAD:Object Repository/General Settings/SR GS004-Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/div_criteria 2.rs
+=======
+         <key>BASIC</key>
+         <value>//*[(text() = 'criteria 2' or . = 'criteria 2')]</value>
+      </entry>
+      <entry>
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24:Object Repository/General Settings/Verify Single or Multiple Stat/Page_Movie Review  Starcat Testing/div_criteria 2.rs
          <key>CSS</key>
       </entry>
    </selectorCollection>

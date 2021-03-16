@@ -6,14 +6,24 @@
    <elementGuidId>936ebd3e-c0a4-4f02-8eba-8b443e210a36</elementGuidId>
    <selectorCollection>
       <entry>
+<<<<<<< HEAD:Object Repository/General Settings/SR GS001-Verify Where to Include Reviews/Page_Movie Review  Starcat Testing/div_Pros  ConsBest movie everVery Interesti_e17a50.rs
          <key>BASIC</key>
          <value>//*[@class = 'prosandcons' and (text() = 'Pros &amp; ConsBest movie everVery InterestingGutterConfusing at timesNarrativeExpensive' or . = 'Pros &amp; ConsBest movie everVery InterestingGutterConfusing at timesNarrativeExpensive')]</value>
       </entry>
       <entry>
+=======
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24:Object Repository/General Settings/Verify Where to Include Reviews/Page_Movie Review  Starcat Testing/div_Pros  ConsBest movie everVery Interesti_e17a50.rs
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/div/div/div[3]</value>
       </entry>
       <entry>
+<<<<<<< HEAD:Object Repository/General Settings/SR GS001-Verify Where to Include Reviews/Page_Movie Review  Starcat Testing/div_Pros  ConsBest movie everVery Interesti_e17a50.rs
+=======
+         <key>BASIC</key>
+         <value>//*[@class = 'prosandcons']</value>
+      </entry>
+      <entry>
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24:Object Repository/General Settings/Verify Where to Include Reviews/Page_Movie Review  Starcat Testing/div_Pros  ConsBest movie everVery Interesti_e17a50.rs
          <key>CSS</key>
          <value>div.prosandcons</value>
       </entry>
@@ -35,7 +45,7 @@
       <value>prosandcons</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -14,6 +14,10 @@
          <value>//div[@id='tab-reviews']/div/div/div/h4</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Author Rating ' or . = 'Author Rating ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>h4.ui.header</value>
       </entry>

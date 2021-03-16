@@ -8,6 +8,13 @@
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[11]/div[2]/div/span[2]</value>
+<<<<<<< HEAD:Object Repository/General Settings/SR GS007-Verify Show Rating Label/Page_Starcat Settings  Starcat Testing  WordPress/span_Off.rs
+=======
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Off' or . = 'Off')]</value>
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24:Object Repository/General Settings/Verify Show Rating Label/Page_Starcat Settings  Starcat Testing  WordPress/span_Off.rs
       </entry>
       <entry>
          <key>CSS</key>

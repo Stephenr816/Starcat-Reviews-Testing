@@ -7,9 +7,13 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
+<<<<<<< HEAD
          <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[11]/div[2]/div/span[2]
 
 </value>
+=======
+         <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[11]/div[2]/div/span[2]</value>
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
       </entry>
       <entry>
          <key>CSS</key>

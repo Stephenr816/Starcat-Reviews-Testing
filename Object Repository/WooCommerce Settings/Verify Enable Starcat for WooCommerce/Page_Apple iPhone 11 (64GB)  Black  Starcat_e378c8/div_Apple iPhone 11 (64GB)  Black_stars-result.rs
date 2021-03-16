@@ -14,6 +14,10 @@
          <value>//div[@id='product-17']/div[2]/ul/li/div/div[2]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'stars-result']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.stars-result</value>
       </entry>
@@ -32,7 +36,11 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
+<<<<<<< HEAD
       <value>scr-icons-row</value>
+=======
+      <value>reviewed-item-stars</value>
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

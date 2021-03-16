@@ -6,6 +6,17 @@
    <elementGuidId>d28a8bcd-1ceb-47dc-aaab-ee55f7b56e23</elementGuidId>
    <selectorCollection>
       <entry>
+<<<<<<< HEAD
+=======
+         <key>XPATH</key>
+         <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[13]/div[2]/div/input[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'search']</value>
+      </entry>
+      <entry>
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
          <key>CSS</key>
          <value>div.ui.search.selection.dropdown.scr-dropdown.active > input.search</value>
       </entry>
@@ -18,10 +29,10 @@
          <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[12]/div[2]/div/i</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

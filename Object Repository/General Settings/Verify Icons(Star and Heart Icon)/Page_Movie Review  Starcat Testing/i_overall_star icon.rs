@@ -15,9 +15,15 @@
          <value>//article[@id='post-13']/div/div/div[4]/div/div/ul/li/div[2]/div[2]/i[3]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@class = 'scr-icons-row']</value>
       </entry>
+<<<<<<< HEAD
+=======
+      <entry>
+         <key>CSS</key>
+      </entry>
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -34,7 +40,11 @@
       <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
+<<<<<<< HEAD
       <value>scr-icon fas fa-star</value>
+=======
+      <value>scr-icons-row</value>
+>>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
