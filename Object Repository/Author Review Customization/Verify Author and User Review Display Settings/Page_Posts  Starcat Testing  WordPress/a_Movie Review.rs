@@ -1,99 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_criteria 2</name>
+   <name>a_Movie Review</name>
    <tag></tag>
-   <elementGuidId>bc4d8907-be47-49dd-9b85-bff2b8149ea2</elementGuidId>
+   <elementGuidId>68c7b515-7c20-48ab-aaaa-092fcb79bd74</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'criteria 2' or . = 'criteria 2')]</value>
+         <key>CSS</key>
+         <value>#post-13 > td.title.column-title.has-row-actions.column-primary.page-title > strong > a.row-title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//article[@id='post-13']/div/div/div/div/div/ul/li[3]/div</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//tr[@id='post-13']/td/strong/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>reviewed-item-label__text</value>
+      <value>row-title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://test.starcatwp.com/wp-admin/post.php?post=13&amp;action=edit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>“Movie Review” (Edit)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>criteria 2</value>
+      <value>Movie Review</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;post-13&quot;)/div[@class=&quot;ast-post-format- ast-no-thumb single-layout-1&quot;]/div[@class=&quot;entry-content clear&quot;]/div[@class=&quot;scr-summary&quot;]/div[@class=&quot;ui stackable two column grid&quot;]/div[@class=&quot;column&quot;]/ul[@class=&quot;reviewed-list&quot;]/li[@class=&quot;reviewed-item&quot;]/div[@class=&quot;reviewed-item-label__text&quot;]</value>
+      <value>id(&quot;post-13&quot;)/td[@class=&quot;title column-title has-row-actions column-primary page-title&quot;]/strong[1]/a[@class=&quot;row-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//article[@id='post-13']/div/div/div/div/div/ul/li[3]/div</value>
+      <value>//tr[@id='post-13']/td/strong/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Movie Review')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 1'])[1]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='“Movie Review” is locked'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='overall'])[1]/following::div[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Movie Review'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users Rating (2)'])[1]/preceding::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Movie Review'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='overall'])[2]/preceding::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='movie-review'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='criteria 2']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Movie Review']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://test.starcatwp.com/wp-admin/post.php?post=13&amp;action=edit')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/div</value>
+      <value>//tr[4]/td/strong/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,24 +6,14 @@
    <elementGuidId>c7a50ec1-64d4-4e70-9ce0-6799830f58ea</elementGuidId>
    <selectorCollection>
       <entry>
-<<<<<<< HEAD:Object Repository/General Settings/SR GS003-Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/h6_Pros  Cons.rs
          <key>BASIC</key>
          <value>//*[(text() = 'Pros &amp; Cons' or . = 'Pros &amp; Cons')]</value>
       </entry>
       <entry>
-=======
->>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24:Object Repository/General Settings/Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/h6_Pros  Cons.rs
          <key>XPATH</key>
          <value>//article[@id='post-13']/div/div/div/div/div[3]/h6</value>
       </entry>
       <entry>
-<<<<<<< HEAD:Object Repository/General Settings/SR GS003-Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/h6_Pros  Cons.rs
-=======
-         <key>BASIC</key>
-         <value>//*[(text() = 'Pros &amp; Cons' or . = 'Pros &amp; Cons')]</value>
-      </entry>
-      <entry>
->>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24:Object Repository/General Settings/Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/h6_Pros  Cons.rs
          <key>CSS</key>
          <value>h6.ui.header</value>
       </entry>

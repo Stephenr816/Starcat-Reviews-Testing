@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Pros  ConsBest movie everVery Interesti_e17a50</name>
+   <name>Pros and Cons</name>
    <tag></tag>
-   <elementGuidId>936ebd3e-c0a4-4f02-8eba-8b443e210a36</elementGuidId>
+   <elementGuidId>1bfccbc3-3504-4cd0-8036-731a265463ae</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'prosandcons' and (text() = 'Pros &amp; ConsBest movie everVery InterestingGutterConfusing at timesNarrativeExpensive' or . = 'Pros &amp; ConsBest movie everVery InterestingGutterConfusing at timesNarrativeExpensive')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//article[@id='post-13']/div/div/div/div/div[3]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.prosandcons</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-13']/div/div/div[10]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'prosandcons']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -53,27 +53,27 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//article[@id='post-13']/div/div/div/div/div[3]</value>
+      <value>//article[@id='post-13']/div/div/div[10]/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 2'])[2]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 2'])[2]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 1'])[2]/following::div[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 1'])[2]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//article/div/div/div/div/div[3]</value>
+      <value>//div[10]/div/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>
