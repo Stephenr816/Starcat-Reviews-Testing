@@ -17,5 +17,6 @@ build
 /bin/
 /Libs/
 /.settings/
+/settings
 /.classpath
 .svn/
