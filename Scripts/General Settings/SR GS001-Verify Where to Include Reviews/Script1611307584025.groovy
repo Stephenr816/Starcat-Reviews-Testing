@@ -78,11 +78,7 @@ WebUI.click(findTestObject('General Settings/SR GS001-Verify Where to Include Re
 
 WebUI.click(findTestObject('General Settings/SR GS001-Verify Where to Include Reviews/Page_Edit Page  Starcat Testing  WordPress/a_httpstest.starcatwp.commovie-page'))
 
-<<<<<<< HEAD
 WebUI.verifyElementVisible(findTestObject('General Settings/SR GS001-Verify Where to Include Reviews/Page_Movie page  Starcat Testing/div_Author Rating overall4criteria 15criteria 23'), 
-=======
-WebUI.verifyElementVisible(findTestObject('General Settings/Verify Where to Include Reviews/Page_Movie page  Starcat Testing/div_Author Rating overall4criteria 15criteria 23'), 
->>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('General Settings/SR GS001-Verify Where to Include Reviews/Page_Movie page  Starcat Testing/div_Users Rating (1) overall4.8criteria 15c_e0c04f'), 
@@ -103,13 +99,9 @@ WebUI.click(findTestObject('General Settings/SR GS001-Verify Where to Include Re
 
 WebUI.click(findTestObject('General Settings/SR GS001-Verify Where to Include Reviews/Page_Pages  Starcat Testing  WordPress/a_Movie page'))
 
-<<<<<<< HEAD
 WebUI.click(findTestObject('General Settings/SR GS001-Verify Where to Include Reviews/Page_Edit Page  Starcat Testing  WordPress/a_httpstest.starcatwp.commovie-page'))
 
 WebUI.verifyElementNotPresent(findTestObject('General Settings/SR GS001-Verify Where to Include Reviews/Page_Movie page  Starcat Testing/div_Author Rating overall4criteria 15criteria 23'), 
-=======
-WebUI.verifyElementNotPresent(findTestObject('General Settings/Verify Where to Include Reviews/Page_Movie page  Starcat Testing/div_Author Rating overall4criteria 15criteria 23'), 
->>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
     0)
 
 WebUI.verifyElementNotPresent(findTestObject('General Settings/SR GS001-Verify Where to Include Reviews/Page_Movie page  Starcat Testing/div_Users Rating (1) overall4.8criteria 15c_e0c04f'), 
