@@ -14,14 +14,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-<<<<<<< HEAD
          <value>//*[@data-value = 'heart']</value>
-=======
-         <value>//*[(text() = ' Heart' or . = ' Heart')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
->>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

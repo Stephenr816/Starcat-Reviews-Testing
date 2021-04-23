@@ -36,11 +36,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-<<<<<<< HEAD
       <value>scr-icons-row</value>
-=======
-      <value>reviewed-item-stars</value>
->>>>>>> fc52691804ddb982ab506424a3b19f03e6c10c24
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
