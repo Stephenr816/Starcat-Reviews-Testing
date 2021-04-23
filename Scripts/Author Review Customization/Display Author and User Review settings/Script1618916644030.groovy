@@ -152,7 +152,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Author Review Custom
 
 WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Edit Post  Starcat Testing  WordPress/input_Move to Trash_save'))
 
-WebUI.click(findTestObject('Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
+WebUI.click(findTestObject('Author Review Customization/Verify Author and User Review Display Settings/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Movie Review  Starcat Testing/Author Rating'), 
     0)
