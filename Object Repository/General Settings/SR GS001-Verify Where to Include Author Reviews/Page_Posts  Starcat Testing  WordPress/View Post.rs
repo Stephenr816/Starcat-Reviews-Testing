@@ -1,100 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Author Rating</name>
+   <name>View Post</name>
    <tag></tag>
-   <elementGuidId>ef48c1b2-c3a0-4183-8462-8eec4e399e34</elementGuidId>
+   <elementGuidId>17395cde-380a-464d-8cd0-efeb4e17704d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//h4[(text() = 'Author Rating ' or . = 'Author Rating ')]</value>
+         <key>XPATH</key>
+         <value>//tr[@id='post-13']/td/div[3]/span[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>h4.ui.header</value>
+         <value>div.row-actions.visible > span.view > a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//article[@id='post-13']/div/div/div/div/div/h4</value>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://test.starcatwp.com/2020/01/07/movie-review/' and (text() = 'View' or . = 'View')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://test.starcatwp.com/2020/01/07/movie-review/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>rel</name>
       <type>Main</type>
-      <value>ui header</value>
+      <value>bookmark</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>View “Movie Review”</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Author Rating </value>
+      <value>View</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;post-13&quot;)/div[@class=&quot;ast-post-format- ast-no-thumb single-layout-1&quot;]/div[@class=&quot;entry-content clear&quot;]/div[@class=&quot;scr-summary&quot;]/div[@class=&quot;ui stackable two column grid&quot;]/div[@class=&quot;column&quot;]/h4[@class=&quot;ui header&quot;]</value>
+      <value>id(&quot;post-13&quot;)/td[@class=&quot;title column-title has-row-actions column-primary page-title&quot;]/div[@class=&quot;row-actions visible&quot;]/span[@class=&quot;view&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//article[@id='post-13']/div/div/div/div/div/h4</value>
+      <value>//tr[@id='post-13']/td/div[3]/span[4]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'View')])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Number Of Pages:'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trash'])[5]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Awards:'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show more details'])[4]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='overall'])[1]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello@pauple.com'])[6]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 1'])[1]/preceding::h4[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Author Rating']/parent::*</value>
+      <value>//a[contains(@href, 'https://test.starcatwp.com/2020/01/07/movie-review/')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h4</value>
+      <value>//tr[4]/td/div[3]/span[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>

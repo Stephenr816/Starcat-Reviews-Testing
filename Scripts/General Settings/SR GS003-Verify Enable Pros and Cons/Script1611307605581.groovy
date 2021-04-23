@@ -30,31 +30,26 @@ WebUI.setEncryptedText(findTestObject('General Settings/SR GS003-Verify Enable P
 
 WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))
 
-WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Dashboard  Starcat Testing  WordPress/div_Starcat Settings'))
-
-WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
-
-WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
-
-WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
-
 WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Starcat Settings  Starcat Testing  WordPress/div_Posts'))
 
 WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Posts  Starcat Testing  WordPress/a_Movie Review'))
 
-WebUI.verifyElementVisible(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Edit Post  Starcat Testing  WordPress/a_Pros'))
+WebUI.verifyElementPresent(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Edit Post  Starcat Testing  WordPress/a_Pros'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Edit Post  Starcat Testing  WordPress/a_Cons'))
+WebUI.verifyElementPresent(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Edit Post  Starcat Testing  WordPress/a_Cons'), 
+    0)
 
 WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementVisible(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/h6_Pros  Cons'))
+WebUI.verifyElementPresent(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/Pros and Cons'), 
+    0)
 
 WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/a_Starcat Settings'))
 
 WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Starcat Settings  Starcat Testing  WordPress/span_Off - Copy'))
+WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Starcat Settings  Starcat Testing  WordPress/Disable Pros and Cons'))
 
 WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
@@ -64,7 +59,7 @@ WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Con
 
 WebUI.click(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Edit Post  Starcat Testing  WordPress/a_httpstest.starcatwp.com20200107movie-review'))
 
-WebUI.verifyElementNotPresent(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/h6_Pros  Cons'), 
+WebUI.verifyElementNotPresent(findTestObject('General Settings/SR GS003-Verify Enable Pros and Cons/Page_Movie Review  Starcat Testing/Pros and Cons'), 
     0)
 
 WebUI.closeBrowser()

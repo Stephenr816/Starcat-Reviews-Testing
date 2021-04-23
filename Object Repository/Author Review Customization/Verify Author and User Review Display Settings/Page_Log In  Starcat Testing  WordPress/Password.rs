@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Remember Me_wp-submit</name>
+   <name>Password</name>
    <tag></tag>
-   <elementGuidId>51e8871d-cec4-436b-b3c3-80eb4dce2c3e</elementGuidId>
+   <elementGuidId>e9371ba5-8ba0-4767-a3df-4fc794305cce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#wp-submit</value>
+         <key>XPATH</key>
+         <value>//input[@id='user_pass']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='wp-submit']</value>
+         <key>CSS</key>
+         <value>#user_pass</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,62 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>wp-submit</value>
+      <value>pwd</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>wp-submit</value>
+      <value>user_pass</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button button-primary button-large</value>
+      <value>input password-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>size</name>
       <type>Main</type>
-      <value>Log In</value>
+      <value>20</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wp-submit&quot;)</value>
+      <value>id(&quot;user_pass&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='wp-submit']</value>
+      <value>//input[@id='user_pass']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='loginform']/p[3]/input</value>
+      <value>//form[@id='loginform']/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p[3]/input</value>
+      <value>//div/input</value>
    </webElementXpaths>
 </WebElementEntity>

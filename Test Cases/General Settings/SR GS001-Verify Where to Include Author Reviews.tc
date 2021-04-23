@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SR GS002-Verify Enable Author Review</name>
+   <name>SR GS001-Verify Where to Include Author Reviews</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3feea33a-84a8-441f-ac64-72c380c5a33b</testCaseGuid>
+   <testCaseGuid>c173ec5f-62e5-4380-a209-061e9fbf52da</testCaseGuid>
 </TestCaseEntity>

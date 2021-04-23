@@ -1,96 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Starcat Settings</name>
+   <name>Pros and Cons</name>
    <tag></tag>
-   <elementGuidId>0c6463dc-ca58-4c76-8ebc-8d94356c623a</elementGuidId>
+   <elementGuidId>c7a50ec1-64d4-4e70-9ce0-6799830f58ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.wp-has-submenu.wp-not-current-submenu.menu-top.menu-icon-generic.toplevel_page_scr-settings.menu-top-last > div.wp-menu-name</value>
+         <key>XPATH</key>
+         <value>//article[@id='post-13']/div/div/div/div/div[3]/h6</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='toplevel_page_scr-settings']/a/div[3]</value>
+         <key>CSS</key>
+         <value>h6.ui.header</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='scr-summary']//div[@class='prosandcons']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>h6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>wp-menu-name</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Starcat Settings</value>
+      <value>ui header</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pros &amp; Cons</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;toplevel_page_scr-settings&quot;)/a[@class=&quot;wp-has-submenu wp-not-current-submenu menu-top menu-icon-generic toplevel_page_scr-settings menu-top-last&quot;]/div[@class=&quot;wp-menu-name&quot;]</value>
+      <value>//div[@class='scr-summary']//div[@class='prosandcons']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='toplevel_page_scr-settings']/a/div[3]</value>
+      <value>//article[@id='post-13']/div/div/div/div/div[3]/h6</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go Pro'])[2]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 2'])[2]/following::h6[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Checksums'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='criteria 1'])[2]/following::h6[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='General Settings'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Best movie ever'])[1]/preceding::h6[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Page'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Very Interesting'])[1]/preceding::h6[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Starcat Settings']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Pros &amp; Cons']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[25]/a/div[3]</value>
+      <value>//h6</value>
    </webElementXpaths>
 </WebElementEntity>

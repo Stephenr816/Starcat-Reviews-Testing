@@ -26,7 +26,7 @@ WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Log In  Starcat Testing  WordPress/input_Username or Email Address_log'), 
     'hello@pauple.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Log In  Starcat Testing  WordPress/input_Password_pwd'), 
+WebUI.setEncryptedText(findTestObject('Author Review Customization/Verify Author and User Review Display Settings/Page_Log In  Starcat Testing  WordPress/Password'), 
     'Pe+uo40tC36STRx7NIxSrQ==')
 
 WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Log In  Starcat Testing  WordPress/input_Remember Me_wp-submit'))

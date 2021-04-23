@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Pages</name>
+   <name>Disable Pros and Cons</name>
    <tag></tag>
-   <elementGuidId>88f8cdac-142d-4344-a4af-8d780a1cc78c</elementGuidId>
+   <elementGuidId>2095642b-e8a1-4642-a1e5-ad3433810aa2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//input[@data-depend-id='enable-pros-cons']/..//span[@class='csf--off']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/div/ul/li[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,76 +20,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>result-selected</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-option-array-index</name>
-      <type>Main</type>
-      <value>1</value>
+      <value>csf--off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pages</value>
+      <value>Off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;csf-form&quot;)/div[@class=&quot;csf-wrapper&quot;]/div[@class=&quot;csf-content&quot;]/div[@class=&quot;csf-sections&quot;]/div[@class=&quot;csf-section scr-csf__section&quot;]/div[@class=&quot;csf-field csf-field-select&quot;]/div[@class=&quot;csf-fieldset&quot;]/div[@class=&quot;chosen-container chosen-container-multi chosen-container-active&quot;]/div[@class=&quot;chosen-drop&quot;]/ul[@class=&quot;chosen-results&quot;]/li[@class=&quot;result-selected&quot;]</value>
+      <value>id(&quot;csf-form&quot;)/div[@class=&quot;csf-wrapper&quot;]/div[@class=&quot;csf-content&quot;]/div[@class=&quot;csf-sections&quot;]/div[@class=&quot;csf-section scr-csf__section&quot;]/div[@class=&quot;csf-field csf-field-switcher&quot;]/div[@class=&quot;csf-fieldset&quot;]/div[@class=&quot;csf--switcher&quot;]/span[@class=&quot;csf--off&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/div/ul/li[2]</value>
+      <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posts'])[5]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[7]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pages'])[4]/following::li[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable author review'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[5]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable Pros and Cons'])[2]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[2]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On'])[8]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/div/ul/li[2]</value>
+      <value>//div[3]/div[2]/div/span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

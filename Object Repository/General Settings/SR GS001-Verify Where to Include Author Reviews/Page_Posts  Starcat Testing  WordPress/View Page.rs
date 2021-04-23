@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Starcat Settings</name>
+   <name>View Page</name>
    <tag></tag>
-   <elementGuidId>dc238fe5-9d87-4793-a0b9-8d04dfcce971</elementGuidId>
+   <elementGuidId>17cd6019-539c-4bb2-9d93-860158dd5ccb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#wp-admin-bar-scr-settings > a.ab-item</value>
+         <key>XPATH</key>
+         <value>//tr[@id='post-13']/td/div[3]/span[4]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='wp-admin-bar-scr-settings']/a</value>
+         <key>CSS</key>
+         <value>div.row-actions.visible > span.view > a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://test.starcatwp.com/movie-page/' and (text() = 'View' or . = 'View')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,94 +28,87 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ab-item</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://test.starcatwp.com/wp-admin/admin.php?page=scr-settings</value>
+      <value>https://test.starcatwp.com/movie-page/</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>bookmark</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>View “Movie Review”</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Starcat Settings</value>
+      <value>View</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wp-admin-bar-scr-settings&quot;)/a[@class=&quot;ab-item&quot;]</value>
+      <value>id(&quot;post-13&quot;)/td[@class=&quot;title column-title has-row-actions column-primary page-title&quot;]/div[@class=&quot;row-actions visible&quot;]/span[@class=&quot;view&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='wp-admin-bar-scr-settings']/a</value>
+      <value>//tr[@id='post-13']/td/div[3]/span[4]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Starcat Settings')]</value>
+      <value>(//a[contains(text(),'View')])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customize'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trash'])[5]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menus'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show more details'])[4]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/preceding::a[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Post'])[1]/preceding::a[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Starcat Settings']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello@pauple.com'])[6]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://test.starcatwp.com/wp-admin/admin.php?page=scr-settings')]</value>
+      <value>//a[contains(@href, 'https://test.starcatwp.com/2020/01/07/movie-review/')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a</value>
+      <value>//tr[4]/td/div[3]/span[4]/a</value>
    </webElementXpaths>
 </WebElementEntity>

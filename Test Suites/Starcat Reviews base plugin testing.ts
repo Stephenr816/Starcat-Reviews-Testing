@@ -15,13 +15,7 @@
       <guid>bc34808a-4ebe-445b-8fa1-42dda65e295d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS001-Verify Where to Include Reviews</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cdbcc1e8-a495-44df-a7d2-53492ce2a235</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS002-Verify Enable Author Review</testCaseId>
+      <testCaseId>Test Cases/General Settings/SR GS001-Verify Where to Include Author Reviews</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d6c02fb4-695f-4643-9212-3cf31e972aa9</guid>

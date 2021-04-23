@@ -34,7 +34,10 @@ WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple 
 
 WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/span_Off'))
+WebUI.scrollToElement(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/Enable Pros and Cons'), 
+    0)
+
+WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/Enable Pros and Cons'))
 
 WebUI.click(findTestObject('General Settings/SR GS004-Verify Single or Multiple Stat/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
