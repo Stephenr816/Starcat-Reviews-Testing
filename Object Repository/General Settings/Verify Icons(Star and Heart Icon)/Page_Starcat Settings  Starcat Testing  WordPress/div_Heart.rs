@@ -6,18 +6,18 @@
    <elementGuidId>97248d85-c496-4761-98c3-9877e4e44214</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[13]/div[2]/div/div[2]/div[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@data-value = 'heart']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[11]/div[2]/div/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

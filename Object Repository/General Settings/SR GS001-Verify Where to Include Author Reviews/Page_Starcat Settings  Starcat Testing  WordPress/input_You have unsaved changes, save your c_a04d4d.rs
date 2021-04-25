@@ -6,12 +6,12 @@
    <elementGuidId>482313ec-59f9-441e-883e-5a8189cb52ee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;scr_options[_nonce][save]&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='scr_options[_nonce][save]']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;scr_options[_nonce][save]&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

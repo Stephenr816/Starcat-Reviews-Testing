@@ -6,12 +6,11 @@
    <elementGuidId>27064491-bdb6-44cb-95e8-1af44390e438</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[8]/div[2]/div[2]/div[3]/div[2]/div/i[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[9]/div[2]/div[2]/div[3]/div[2]/div/i[3]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

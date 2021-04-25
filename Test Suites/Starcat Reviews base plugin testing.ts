@@ -15,55 +15,7 @@
       <guid>bc34808a-4ebe-445b-8fa1-42dda65e295d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS001-Verify Where to Include Author Reviews</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d6c02fb4-695f-4643-9212-3cf31e972aa9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS003-Verify Enable Pros and Cons</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e41a9af8-e933-4e2c-a643-8b6062b6031f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS004-Verify Single or Multiple Stat</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>707fe822-11fd-4c2d-9201-fbdc82751443</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS005-Verify Stat text and Adding new stat</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f3d9671d-62d4-4ab4-9a0f-3f1d8b57c84f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS007-Verify Show Rating Label</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>463786b4-28c7-48ff-8e40-cf457d425bd8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS008-Verify Icons (Star and Heart Icon)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>569eb35a-422c-4ae1-ae11-465600d28e87</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS009-Verify Icons color</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7759dfdd-bf37-40da-a396-f42a3bf55a0d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS010-Verify Icons Label color</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dfbbf2c1-665e-4860-bc3b-5f15b9cb8174</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/General Settings/SR GS011-Verify Limit</testCaseId>
+      <testCaseId>Test Cases/General Settings/Author Review Settings</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>160349d6-6f45-433b-b8e3-3b8834ccfebb</guid>

@@ -6,12 +6,12 @@
    <elementGuidId>638021d5-11d9-4514-bbac-f1f3be762dbd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#wp-admin-bar-scr-settings > a.ab-item</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@id='wp-admin-bar-scr-settings']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#wp-admin-bar-scr-settings > a.ab-item</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

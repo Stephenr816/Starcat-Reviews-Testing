@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[13]/div[2]/div/div[2]/div</value>
+         <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[11]/div[2]/div/div[2]/div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@data-depend-id='enable-pros-cons']/..//span[@class='csf--on']</value>
+         <value>//input[@name='scr_options[enable-pros-cons]']/..//span[@class=&quot;csf--on&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>

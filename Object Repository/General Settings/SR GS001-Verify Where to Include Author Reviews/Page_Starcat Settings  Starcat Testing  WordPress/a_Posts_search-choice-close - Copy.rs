@@ -6,16 +6,16 @@
    <elementGuidId>92160efe-51c8-49a7-8cea-7733a9137ac6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/ul/li/a</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@data-option-array-index = '1']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.search-choice-close</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

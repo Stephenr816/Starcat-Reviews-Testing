@@ -6,19 +6,19 @@
    <elementGuidId>8e5e2b81-6ecf-4eb5-bfbf-d792f042a38d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@class, 'scr-icon fas fa-star rating')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//article[@id='post-13']/div/div/div[4]/div/div/ul/li/div[2]/div[2]/i</value>
+         <value>//*[@id=&quot;post-13&quot;]/div/div/div[14]/div/div[1]/div[1]/ul/li[1]/div[2]/div/span[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.stars-result > i.star.icon</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'star icon']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,10 +29,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>star icon</value>
+      <value>scr-icon fas fa-star rating</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

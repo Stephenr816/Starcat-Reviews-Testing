@@ -6,12 +6,15 @@
    <elementGuidId>254875f1-a605-4cdd-92f4-22d9fffc7501</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@class = 'button button-primary csf-repeater-add']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[9]/div[2]/a/i</value>
+         <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[8]/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,14 +27,14 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fas fa-plus-circle</value>
+      <value>button button-primary csf-repeater-add</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

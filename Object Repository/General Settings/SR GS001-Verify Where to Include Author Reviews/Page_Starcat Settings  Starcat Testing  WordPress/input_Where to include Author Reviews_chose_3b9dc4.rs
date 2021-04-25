@@ -1,38 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Icons_search</name>
+   <name>input_Where to include Author Reviews_chose_3b9dc4</name>
    <tag></tag>
-   <elementGuidId>d28a8bcd-1ceb-47dc-aaab-ee55f7b56e23</elementGuidId>
+   <elementGuidId>3be9e11b-32a7-4e91-b3cf-f782503c6837</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@class = 'ui search selection dropdown scr-dropdown']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[11]/div[2]/div/input[2]</value>
+         <value>//input[@value='Select post types']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.ui.search.selection.dropdown.scr-dropdown.active > input.search</value>
+         <value>input.chosen-search-input.default</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui search selection dropdown scr-dropdown</value>
+      <value>chosen-search-input default</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,29 +47,36 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>value</name>
       <type>Main</type>
-      <value>0</value>
+      <value>Select post types</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;csf-form&quot;)/div[@class=&quot;csf-wrapper&quot;]/div[@class=&quot;csf-content&quot;]/div[@class=&quot;csf-sections&quot;]/div[@class=&quot;csf-section scr-csf__section&quot;]/div[@class=&quot;csf-field csf-field-icon_dropdown csf-depend-hidden&quot;]/div[@class=&quot;csf-fieldset&quot;]/div[@class=&quot;ui search selection dropdown scr-dropdown active&quot;]/input[@class=&quot;search&quot;]</value>
+      <value>id(&quot;csf-form&quot;)/div[@class=&quot;csf-wrapper&quot;]/div[@class=&quot;csf-content&quot;]/div[@class=&quot;csf-sections&quot;]/div[@class=&quot;csf-section scr-csf__section&quot;]/div[@class=&quot;csf-field csf-field-select&quot;]/div[@class=&quot;csf-fieldset&quot;]/div[@class=&quot;chosen-container chosen-container-multi chosen-with-drop chosen-container-active&quot;]/ul[@class=&quot;chosen-choices&quot;]/li[@class=&quot;search-field&quot;]/input[@class=&quot;chosen-search-input default&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Select post types']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[13]/div[2]/div/input[2]</value>
+      <value>//form[@id='csf-form']/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/ul/li/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[13]/div[2]/div/input[2]</value>
+      <value>//li/input</value>
    </webElementXpaths>
 </WebElementEntity>

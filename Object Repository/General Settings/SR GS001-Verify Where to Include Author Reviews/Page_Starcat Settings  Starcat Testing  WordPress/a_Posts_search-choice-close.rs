@@ -6,19 +6,19 @@
    <elementGuidId>3cbd878c-2de1-4a0a-8600-539d6acb6923</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@data-option-array-index = '0']</value>
+         <key>XPATH</key>
+         <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/ul/li/a</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>BASIC</key>
+         <value>//*[@data-option-array-index = '0']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.search-choice-close</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='csf-form']/div[2]/div[2]/div/div/div[2]/div[2]/div/ul/li/a</value>
+         <key>IMAGE</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
