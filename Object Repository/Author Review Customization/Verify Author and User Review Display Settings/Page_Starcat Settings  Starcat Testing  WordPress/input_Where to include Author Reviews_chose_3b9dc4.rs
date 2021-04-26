@@ -6,19 +6,19 @@
    <elementGuidId>dba4c32d-1a76-41fc-9645-729a7afe0c09</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.chosen-search-input.default</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;csf-form&quot;]/div[2]/div[2]/div[1]/div[2]/div[2]/div[2]/div/ul/li/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='Select post types']</value>
+         <key>CSS</key>
+         <value>input.chosen-search-input.default</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@class = 'chosen-search-input default' and @value = 'Select post types']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

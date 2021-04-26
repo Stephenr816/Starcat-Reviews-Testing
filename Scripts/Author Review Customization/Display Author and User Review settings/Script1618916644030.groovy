@@ -56,7 +56,7 @@ WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify
 
 WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/a_User Reviews'))
 
-WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/a_Posts_search-choice-close'))
+WebUI.click(findTestObject('Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/a_Posts_search-choice-close - Copy'))
 
 WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/input_You have unsaved changes, save your c_a04d4d'))
 
@@ -129,13 +129,13 @@ WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify
 
 WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/a_General Settings'))
 
-WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/input_Where to include Author Reviews_chose_3b9dc4'))
+WebUI.click(findTestObject('Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/input_Where to include Author Reviews_chose_3b9dc4'))
 
 WebUI.click(findTestObject('Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/li_Posts'))
 
 WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/a_User Reviews'))
 
-WebUI.click(findTestObject('Object Repository/Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/input_Where to include Author Reviews_chose_3b9dc4'))
+WebUI.click(findTestObject('Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/input_Where to include Author Reviews_chose_3b9dc4_1'))
 
 WebUI.click(findTestObject('Author Review Customization/Verify Author and User Review Display Settings/Page_Starcat Settings  Starcat Testing  WordPress/li_Posts_1'))
 
